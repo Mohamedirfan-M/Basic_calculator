@@ -1,0 +1,39 @@
+body{
+  background-size: cover;
+}
+#box{
+    background-color: transparent;
+    border: 1.5px solid rgb(253, 254, 254);
+    height: 530px;
+    width: 440px;
+    margin-top: 35px;
+    margin-left: 800px;
+    border-radius: 10px;
+}
+#box>input{
+    text-align: right;
+    font-size: 45px;
+    margin-left: 20px;
+    margin-top: 30px;
+    padding-left: 5px;
+    padding-right: 15px;
+    height: 90px;
+    width: 380px;
+    margin-bottom: 48px;
+  }
+#btn-keys>button{
+    font-size: xx-large;
+    margin-bottom: 20px;
+    margin-top: 1px;
+    margin-left: 20px;
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+}
+button:active
+button:focus {
+    filter: brightness(120%);
+  }
+#btn-keys>button:hover{
+    box-shadow: 0px 0px 14px rgb(255, 255, 255);
+}
